@@ -28,5 +28,7 @@ public class Vector
         
         int value = test2.dot(mine);
         System.out.println(value);
+        
+        System.out.println(test2.length());
     }
 }
