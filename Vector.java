@@ -1,38 +1,32 @@
 public class Vector
 {
-    private int x;
-    private int y;
+    int x;
+    int y;
     public Vector(int xI, int yI)
     {
         x = xI;
         y = yI;
     }
-
-    public void multiply(int a)
-    {
-        x = x*a;
-        y = y*a;
-    }
     
-    public int dot(Vector a)
-    {
-        return (x * a.x) + (y * a.y);
-    }
     
     public void display()
     {
-        System.out.println("X: " + x + "Y: " + y);
+        System.out.println("X: " + x + "\nY: " + y);
+        System.out.println("------------------");
     }
         
     
     public static void main(String args[]){
+        
+        Arithmetic test = new Arithmetic(5, 8);
+        test.multiply(3);
+        test.display();
+        
         Vector mine = new Vector(5, 7);
-        mine.display();
-        mine.multiply(3);
+        Operations test2 = new Operations(2, 5);
         
         
-        System.out.println(mine.dot(new Vector(6, 2)));
-        
-        mine.display();
+        int value = test2.dot(mine);
+        System.out.println(value);
     }
 }

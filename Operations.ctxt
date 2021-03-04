@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Operations
+comment1.params=xI\ yI
+comment1.target=Operations(int,\ int)
+comment2.params=a
+comment2.target=int\ dot(Vector)
+numComments=3

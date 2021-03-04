@@ -2,12 +2,8 @@
 comment0.target=Vector
 comment1.params=xI\ yI
 comment1.target=Vector(int,\ int)
-comment2.params=a
-comment2.target=void\ multiply(int)
-comment3.params=a
-comment3.target=int\ dot(Vector)
-comment4.params=
-comment4.target=void\ display()
-comment5.params=args
-comment5.target=void\ main(java.lang.String[])
-numComments=6
+comment2.params=
+comment2.target=void\ display()
+comment3.params=args
+comment3.target=void\ main(java.lang.String[])
+numComments=4
