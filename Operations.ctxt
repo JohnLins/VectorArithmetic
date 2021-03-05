@@ -5,5 +5,5 @@ comment1.target=Operations(int,\ int)
 comment2.params=a
 comment2.target=int\ dot(Vector)
 comment3.params=
-comment3.target=double\ length()
+comment3.target=double\ magnitude()
 numComments=4

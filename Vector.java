@@ -18,17 +18,30 @@ public class Vector
     
     public static void main(String args[]){
         
-        Arithmetic test = new Arithmetic(5, 8);
-        test.multiply(3);
-        test.display();
+        Arithmetic vec1 = new Arithmetic(5, 8);
         
-        Vector mine = new Vector(5, 7);
-        Operations test2 = new Operations(2, 5);
+        vec1.multiplyByScalar(3);
+        vec1.display();
+        
+        vec1.divideByScalar(3);
+        vec1.display();
+        
+        vec1.addByVector(new Vector(6, 2));
+        vec1.display();
+        
+        vec1.substractByVector(new Vector(5, 4));
+        vec1.display();
         
         
-        int value = test2.dot(mine);
+       
+        Operations vec2 = new Operations(2, 5);
+        
+        int value = vec2.dot(new Vector(2, 8));
         System.out.println(value);
         
-        System.out.println(test2.length());
+        System.out.println(vec2.magnitude());
+        
+        
+        
     }
 }
