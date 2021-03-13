@@ -15,4 +15,19 @@ public class Operations extends Vector
         super.display();
         return len;
     }
+    
+    public double[] convertToPolar(){
+        double theta = Math.atan(super.y/super.x) * (180.0/Math.PI);
+        double radius = Math.sqrt( Math.pow(super.x,2) + Math.pow(super.y, 2) );
+         if(super.x > 0){
+             if(super.y < 0){
+                    theta = theta + 360;
+                }
+         } else {
+             theta = theta + 180;
+         }
+         
+         double[] polar = {radius,theta};
+         return polar;
+    }
 }

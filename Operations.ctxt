@@ -6,4 +6,6 @@ comment2.params=a
 comment2.target=int\ dot(Vector)
 comment3.params=
 comment3.target=double\ magnitude()
-numComments=4
+comment4.params=
+comment4.target=double[]\ convertToPolar()
+numComments=5

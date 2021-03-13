@@ -11,6 +11,7 @@ public class Vector
     
     public void display()
     {
+        System.out.println("------------------");
         System.out.println("X: " + x + "\nY: " + y);
         System.out.println("------------------");
     }
@@ -34,7 +35,7 @@ public class Vector
         
         
        
-        Operations vec2 = new Operations(2, 5);
+        Operations vec2 = new Operations(2, -5);
         
         int value = vec2.dot(new Vector(2, 8));
         System.out.println(value);
@@ -42,6 +43,12 @@ public class Vector
         System.out.println(vec2.magnitude());
         
         
+        System.out.println(vec2.convertToPolar()[0]);
+        System.out.println(vec2.convertToPolar()[1]);
+        
+        Polar vec3 = new Polar(6, 100);
+        Vector vec4 = vec3.convert2Rec();
+        vec4.display();
         
     }
 }
