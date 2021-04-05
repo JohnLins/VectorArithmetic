@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=ThreeDOperations
+comment1.params=xI\ yI\ zI
+comment1.target=ThreeDOperations(int,\ int,\ int)
+comment2.params=a
+comment2.target=ThreeDVector\ cross(ThreeDVector)
+numComments=3
