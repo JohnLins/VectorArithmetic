@@ -8,6 +8,14 @@ public class Vector
         y = yI;
     }
     
+    public int getX(){
+        return x;   
+    }
+    
+    public int getY(){
+        return y;
+    }
+    
     
     public void display()
     {
@@ -49,6 +57,15 @@ public class Vector
         Polar vec3 = new Polar(6, 100);
         Vector vec4 = vec3.convert2Rec();
         vec4.display();
+        
+        
+        Matrix myMatrix = new Matrix(new Vector(2, 3), new Vector(5, 4));
+        
+        System.out.print("EigenValues: ");
+        double[] ev = myMatrix.eigenValues();
+        for(double i : ev){
+            System.out.print(i + " ");
+        }
         
     }
 }

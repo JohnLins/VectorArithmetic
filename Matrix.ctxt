@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Matrix
+comment1.params=one\ two
+comment1.target=Matrix(Vector,\ Vector)
+comment2.params=
+comment2.target=double[]\ eigenValues()
+numComments=3
