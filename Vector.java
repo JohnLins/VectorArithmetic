@@ -38,7 +38,7 @@ public class Vector
         vec1.addByVector(new Vector(6, 2));
         vec1.display();
         
-        vec1.substractByVector(new Vector(5, 4));
+        vec1.subtractByVector(new Vector(5, 4));
         vec1.display();
         
         
@@ -67,5 +67,7 @@ public class Vector
             System.out.print(i + " ");
         }
         
+        
+        System.out.println("\ndet: " + myMatrix.det());
     }
 }

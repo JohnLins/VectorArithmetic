@@ -29,4 +29,8 @@ public class Matrix
         
         return ev;
     }
+    
+    double det(){
+     return (row2.getY() * row1.getX()) - (row2.getX() * row1.getY()); 
+    }
 }

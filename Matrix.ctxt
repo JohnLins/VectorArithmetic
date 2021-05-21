@@ -4,4 +4,6 @@ comment1.params=one\ two
 comment1.target=Matrix(Vector,\ Vector)
 comment2.params=
 comment2.target=double[]\ eigenValues()
-numComments=3
+comment3.params=
+comment3.target=double\ det()
+numComments=4

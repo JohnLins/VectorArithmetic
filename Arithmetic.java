@@ -18,7 +18,7 @@ public class Arithmetic extends Vector
         super.y = (int)super.y/a;
     }
     
-    public void substractByVector(Vector a)
+    public void subtractByVector(Vector a)
     {
         super.x = super.x-a.x;
         super.y = super.y-a.y;
